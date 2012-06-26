@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/textView1"
+		android:text="@string/preferences_label_savepath"></TextView>
+	<EditText android:layout_width="fill_parent" android:editable="false" android:layout_height="wrap_content" android:id="@+id/preferences_filepath_edittext">
+		<requestFocus></requestFocus>
+	</EditText>
+	<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:orientation="horizontal" android:gravity="right">
+		<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/preferences_browse_button" android:text="@string/browse"></Button>
+	</LinearLayout>
+
+</LinearLayout>

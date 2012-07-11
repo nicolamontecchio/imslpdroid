@@ -101,24 +101,30 @@ public class ScoresActivity extends ListActivity {
 			} else {
 
 				for (Element weFile : weFiles) {
-					String scoreId = weFile.getElementsByTag("a").get(0).attr(
-							"title").toString();
-					boolean blocked = !weFile.getElementsByClass(
-							"we_file_dlarrow_blocked").isEmpty();
-					String publisherInfo = content.getElementsByClass(
-							"we_edition_info").get(0).text();
-					String scannedBy = weFile
-							.getElementsByClass("we_file_info").get(0).text();
-					String pagesandco = weFile.getElementsByClass(
-							"we_file_info2").get(0).text();
-					String title = weFile.getElementsByClass(
-							"we_file_dlarrwrap").parents().get(0).text();
-					if (scannedBy.contains("PDF file")) {
-						Score newScore = new Score(scoreId, author, piece,
-								publisherInfo, title, pagesandco, blocked, -1);
-						res.add(newScore);
-						hasScore = true;
+					try { // TODO this try/catch is quite a hack, but seems to work (the problem was with <divs> for audio recordings crashing the app)
+						String scoreId = weFile.getElementsByTag("a").get(0).attr(
+								"title").toString();
+						boolean blocked = !weFile.getElementsByClass(
+								"we_file_dlarrow_blocked").isEmpty();
+						String publisherInfo = content.getElementsByClass(
+								"we_edition_info").get(0).text();
+						String scannedBy = weFile
+								.getElementsByClass("we_file_info").get(0).text();
+						String pagesandco = weFile.getElementsByClass(
+								"we_file_info2").get(0).text();
+						String title = weFile.getElementsByClass(
+								"we_file_dlarrwrap").parents().get(0).text();
+						if (scannedBy.contains("PDF file")) {
+							Score newScore = new Score(scoreId, author, piece,
+									publisherInfo, title, pagesandco, blocked, -1);
+							res.add(newScore);
+							hasScore = true;
+						}	
+					} catch(IndexOutOfBoundsException e) {
+						Log.d("exception in adding scores", weFile.toString());
 					}
+					
+					
 				}
 			}
 			return hasScore;

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ImslpDroid</string>
+	<string name="refresh_button">Actualizar</string>
+	<string name="downloading_list_of_composers">Descargando la lista completa de compositores... Por favor, espere.
+	</string>
+	<string name="downloading_list_of_instrumentations">Descargando la lista completa de instrumentaciones... puede conllevar unos minutos.
+	</string>
+	<string name="downloading_list">Recuperando la información de IMSLP... \n Por favor, espere.
+	</string>
+	<string name="list_of_composers_download_error">Ha ocurrido un error en la descarga de la lista de compositores; compruebe su conexión a internet y vuelva a intenarlo.
+	</string>
+	<string name="list_of_instrumentations_download_error">Ha ocurrido un error en la descarga de la lista de instrumentaciones; compruebre su conexión a internet y vuelva a intentarlo.
+	</string>
+	<string name="list_download_error">Ha ocurrido un error al recuperar la información de IMSLP; compruebe su conexión a internet y vuelva a intentarlo.
+	</string>
+	<string name="refresh_list_composers_menu">Actualizar lista de compositores</string>
+	<string name="refresh_list_instrumentations_menu">Actualizar lista de instrumentaciones</string>
+	<string name="refresh_list_menu">Actualizar lista</string>
+	<string name="pieces">Imslpdroid - Seleccione una pieza</string>
+	<string name="scores">Imslpdroid - Seleccione una partitura</string>
+	<string name="preferences_label_savepath">Carpeta de las descargas:</string>
+	<string name="button_confirm">Confirmar</string>
+	<string name="button_cancel">Cancelar</string>
+	<string name="pathchoosedialog_availablepathsonsdcard">Available paths on SD card:</string>
+	<string name="browse">Explorar</string>
+	<string name="downloadingfromimslp">Recuperando información de IMSLP</string>
+	<string name="rlvsearch">Buscar</string>
+	<string name="scoredlinprogress">Descargando partitura...</string>
+	<string name="errordownloadingpieceslist">Error en la descarga de la lista de obras; compruebe su conexión a internet y vuelva a intentarlo.
+	</string>
+	<string name="filerequestediscopyright">El copyright del archivo que ha solicitado no ha sido comprobado, o está restringido debido a varias razones. Este bloqueo se levantará cuando se compruebe su copyright o se resuelva las otras razones de su bloqueo.
+	</string>
+	<string name="nopdfapp">No dispone de ninguna aplicación para visualizar archivos .pdf - instale Acrobat Reader o similar desde el Play Store y vuelva a intentarlo.
+	</string>
+	<string name="errordownloadingscorelist">Ha ocurrido un error al descargar la lista de partituras; compruebe su conexión a internet y vuelva a intentarlo.
+	</string>
+	<string name="credits">Contribuyentes originales:</string>
+	<string name="emptystring">
+	</string>
+	<string name="videohelp">Overview / Help</string>
+	<string name="openonyoutube">Open in youtube</string>
+	<string name="nopdfviewer">No pdf viewer is installed; you will not be able to
+		visualize scores until you install one (such as Adobe Reader, freely
+		available on Android market)
+	</string>
+	<string name="lic_redownload">Re-download score</string>
+	<string name="lic_delete">Remove from storage</string>
+	<string name="lic_info">Additional info</string>
+	<string name="lic_chooseaction">Choose an action</string>
+	<string name="deleteall">Borrar todos los archivos</string>
+	<string name="thisisjustaninterface">Esta aplicación es una interfaz para el portal de IMSLP. Por favor, considere donar a IMSLP para dar soporte al proyecto:
+	</string>
+	<string name="imslpurl">http://www.imslp.org</string>
+	<string name="ytHelpUrl">http://www.youtube.com/watch?v=Fitu5_MYoQE</string>
+	<string name="composers">Compositor</string>
+	<string name="period">Época</string>
+	<string name="nationality">Nacionalidad</string>
+	<string name="instrumentation">Instrumento</string>
+	<string name="downloaded">Descargadas</string>
+	<string name="aboutapp">Info</string>
+	<string name="download_completed">Descarga completada</string>
+	<string name="worktype">Tipo</string> <!-- not convinced -->
+	<string name="loading">Cargando información</string>
+	<string name="no_file">La lista de partituras descargadas está vacia. Busque nuevas partituras en las pestañas de búsqueda.</string>
+	<string name="initializing_data">Inicializando información</string>
+	<string name="no_info">No hay información adicional disponible</string>
+	<string name="device_storage_error">Error en la memoria del dispositivo</string>
+	<string name="download_error">Error en la descarga</string>
+	<string name="opensource">Ahora ImslpDroid es software libre!</string>
+	<string name="opensource2">Si estás interesado en contribuir en el proyecto, por favor visita: </string>
+	<string name="opensource3">http://imslpdroid.wordpress.com/</string>
+</resources>

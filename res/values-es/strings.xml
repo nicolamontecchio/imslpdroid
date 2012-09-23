@@ -38,36 +38,34 @@
 	<string name="credits">Contribuyentes originales:</string>
 	<string name="emptystring">
 	</string>
-	<string name="videohelp">Overview / Help</string>
-	<string name="openonyoutube">Open in youtube</string>
-	<string name="nopdfviewer">No pdf viewer is installed; you will not be able to
-		visualize scores until you install one (such as Adobe Reader, freely
-		available on Android market)
+	<string name="videohelp">Overview / Ayuda</string>
+	<string name="openonyoutube">Abrir en Youtube</string>
+	<string name="nopdfviewer">No tiene ningún visualizador pdf instalado. No podrá ver las partituras hasta que no instale uno (Como Adobe Reader, disponible gratuitamente en el Play Store)
 	</string>
-	<string name="lic_redownload">Re-download score</string>
-	<string name="lic_delete">Remove from storage</string>
-	<string name="lic_info">Additional info</string>
-	<string name="lic_chooseaction">Choose an action</string>
+	<string name="lic_redownload">Volver a descargar</string>
+	<string name="lic_delete">Borrar del almacenaje</string>
+	<string name="lic_info">Información adicional</string>
+	<string name="lic_chooseaction">Escoja una acción</string>
 	<string name="deleteall">Borrar todos los archivos</string>
-	<string name="thisisjustaninterface">Esta aplicación es una interfaz para el portal de IMSLP. Por favor, considere donar a IMSLP para dar soporte al proyecto:
+	<string name="thisisjustaninterface">Esta aplicación es una interfaz para el portal de IMSLP. Por favor, considere hacer una donación a IMSLP para dar soporte al proyecto:
 	</string>
 	<string name="imslpurl">http://www.imslp.org</string>
 	<string name="ytHelpUrl">http://www.youtube.com/watch?v=Fitu5_MYoQE</string>
-	<string name="composers">composers</string>
-	<string name="period">época</string>
-	<string name="nationality">nacionalidad</string>
-	<string name="instrumentation">instrumento</string>
-	<string name="downloaded">descargadas</string>
-	<string name="aboutapp">info</string>
+	<string name="composers">Compositores</string>
+	<string name="period">Época</string>
+	<string name="nationality">Nacionalidad</string>
+	<string name="instrumentation">Instrumento</string>
+	<string name="downloaded">Descargadas</string>
+	<string name="aboutapp">Info</string>
 	<string name="download_completed">Descarga completada</string>
 	<string name="worktype">tipo</string> <!-- not convinced -->
 	<string name="loading">Cargando información</string>
 	<string name="no_file">La lista de partituras descargadas está vacia. Busque nuevas partituras en las pestañas de búsqueda.</string>
 	<string name="initializing_data">Inicializando información</string>
 	<string name="no_info">No hay información adicional disponible</string>
-	<string name="device_storage_error">Error en la memoria del dispositivo</string>
+	<string name="device_storage_error">Error de almacenaje del dispositivo</string>
 	<string name="download_error">Error en la descarga</string>
 	<string name="opensource">Ahora ImslpDroid es opensource!</string>
-	<string name="opensource2">Si estás interesado enncontribuir en el proyecto, por favor visite: </string>
+	<string name="opensource2">Si estás interesado en contribuir en el proyecto, por favor visite: </string>
 	<string name="opensource3">http://imslpdroid.wordpress.com/</string>
 </resources>

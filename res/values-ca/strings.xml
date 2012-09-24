@@ -4,21 +4,21 @@
 	<string name="refresh_button">Actualitzar</string>
 	<string name="downloading_list_of_composers">Descargant la llista completa de compositors... Siusplau, esperi.
 	</string>
-	<string name="downloading_list_of_instrumentations">Descargannt la llista completa de instrumentacions... aquesta operació pot tardar uns minuts.
+	<string name="downloading_list_of_instrumentations">Descargant la llista completa de instrumentacions... aquesta operació pot tardar uns minuts.
 	</string>
 	<string name="downloading_list">Recuperant la informació de IMSLP... \n Siusplau, esperi.
 	</string>
-	<string name="list_of_composers_download_error">Hi ha hagut un error en la descarga de la llista de compositors; comprobi la seva conexió a internet y torni-ho a intenar.
+	<string name="list_of_composers_download_error">Hi ha hagut un error en la descarga de la llista de compositors; comprobi la seva conexió a internet y torni-ho a intentar.
 	</string>
-	<string name="list_of_instrumentations_download_error">Ha ocurrido un error en la descarga de la lista de instrumentaciones; compruebe su conexión a internet y vuelva a intentarlo.
+	<string name="list_of_instrumentations_download_error">Hi ha hagut un error en la descarga de la llista de instrumentacions; comprobi la seva conexió a internet y torni-ho a intentar.
 	</string>
-	<string name="list_download_error">Ha ocurrido un error al recuperar la información de IMSLP; compruebe su conexión a internet y vuelva a intentarlo.
+	<string name="list_download_error">Hi ha hagut un error al recuperar la informació de IMSLP; comprobi la seva conexió a internet y torni-ho a intentar.
 	</string>
 	<string name="refresh_list_composers_menu">Actualitzar llista de compositors</string>
 	<string name="refresh_list_instrumentations_menu">Actualitzar llista de instrumentacions</string>
 	<string name="refresh_list_menu">Actualitzar llista</string>
-	<string name="pieces">Imslpdroid - Seleccione una pieza</string>
-	<string name="scores">Imslpdroid - Seleccione una partitura</string>
+	<string name="pieces">Imslpdroid - Seleccioni una peça</string>
+	<string name="scores">Imslpdroid - Seleccioni una partitura</string>
 	<string name="preferences_label_savepath">Carpeta de les descargues:</string>
 	<string name="button_confirm">Confirmar</string>
 	<string name="button_cancel">Descartar</string>
@@ -27,27 +27,25 @@
 	<string name="downloadingfromimslp">Recuperant informació de IMSLP</string>
 	<string name="rlvsearch">Buscar</string>
 	<string name="scoredlinprogress">Descargant partitura...</string>
-	<string name="errordownloadingpieceslist">Error en la descarga de la llista de obres; comprobi la seva conexió a internet y torni-ho a intenar.
+	<string name="errordownloadingpieceslist">Error en la descarga de la llista de obres; comprobi la seva conexió a internet y torni-ho a intentar.
 	</string>
-	<string name="filerequestediscopyright">El copyright del archivo que ha solicitado no ha sido comprobado, o está restringido debido a varias razones. Este bloqueo se levantará cuando se compruebe su copyright o se resuelva las otras razones de su bloqueo.
+	<string name="filerequestediscopyright">El copyright de l\'arxiu que ha solicitat no ha estat comprobat, o està restringit degut a varies raons. Aquest bloqueig serà aixecat quan es comprobi el seu copyright o es solucionin les altres possibles raons.
 	</string>
-	<string name="nopdfapp">No dispone de ninguna aplicación para visualizar archivos .pdf - instale Acrobat Reader o similar desde el Play Store y vuelva a intentarlo.
+	<string name="nopdfapp">No disposa de cap aplicació per a visualitzar arxius .pdf - instali Acrobat Reader o similar des del Play Store y torni-ho a intentar.
 	</string>
-	<string name="errordownloadingscorelist">Ha ocurrido un error al descargar la lista de partituras; compruebe su conexión a internet y vuelva a intentarlo.
+	<string name="errordownloadingscorelist">Hi ha hagut un error en la descarga de la llista de partitures; comprobi la seva conexió a internet y torni-ho a intentar.
 	</string>
 	<string name="credits">Contribuents originals:</string>
 	<string name="emptystring">
 	</string>
 	<string name="videohelp">Overview / Help</string>
 	<string name="openonyoutube">Open in youtube</string>
-	<string name="nopdfviewer">No pdf viewer is installed; you will not be able to
-		visualize scores until you install one (such as Adobe Reader, freely
-		available on Android market)
+	<string name="nopdfviewer">No tens cap visor d\'arxius .pdf instalat; no podràs veure les partitures fins que no n\'instalis un (com l\'Adobe Reader, disponible gratuïtament al Play Store).
 	</string>
-	<string name="lic_redownload">Re-download score</string>
-	<string name="lic_delete">Remove from storage</string>
+	<string name="lic_redownload">Tornar a descarregar</string>
+	<string name="lic_delete">Esborrar de l\'almacenatge</string>
 	<string name="lic_info">Informació adicional</string>
-	<string name="lic_chooseaction">Choose an action</string>
+	<string name="lic_chooseaction">Esculli una acció</string>
 	<string name="deleteall">Borrar tots els arxius</string>
 	<string name="thisisjustaninterface">Aquesta aplicació és una interfaç per al portal de IMSLP. Siusplau, consideri fer una donació a IMSLP per donar soport al projecte:
 	</string>
@@ -63,9 +61,9 @@
 	<string name="worktype">Tipus</string> <!-- not convinced -->
 	<string name="loading">Cargant informació</string>
 	<string name="no_file">La llista de partitures descargades està buida. Busqui noves partitures en les pestanyes de búsqueda.</string>
-	<string name="initializing_data">Inicializando información</string>
+	<string name="initializing_data">Inicialitzant informació</string>
 	<string name="no_info">No hi ha informació adicional disponible</string>
-	<string name="device_storage_error">Error en la memoria del dispositivo</string>
+	<string name="device_storage_error">Error en la memòria del dispositiu</string>
 	<string name="download_error">Error en la descarga</string>
 	<string name="opensource">Ara ImslpDroid es programari lliure!</string>
 	<string name="opensource2">Si estas interesat en contribuir en el projecte, siusplau visita: </string>

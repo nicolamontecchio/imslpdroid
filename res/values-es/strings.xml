@@ -29,7 +29,7 @@
 	<string name="scoredlinprogress">Descargando partitura...</string>
 	<string name="errordownloadingpieceslist">Error en la descarga de la lista de obras; compruebe su conexión a internet y vuelva a intentarlo.
 	</string>
-	<string name="filerequestediscopyright">El copyright del archivo que ha solicitado no ha sido comprobado, o está restringido debido a varias razones. Este bloqueo se levantará cuando se compruebe su copyright o se resuelva las otras razones de su bloqueo.
+	<string name="filerequestediscopyright">El copyright del archivo que ha solicitado no ha sido comprobado, o está restringido debido a varias razones. Este bloqueo se levantará cuando se compruebe su copyright o se resuelva las otras posibles razones.
 	</string>
 	<string name="nopdfapp">No dispone de ninguna aplicación para visualizar archivos .pdf - instale Acrobat Reader o similar desde el Play Store y vuelva a intentarlo.
 	</string>

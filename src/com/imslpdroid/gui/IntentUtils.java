@@ -32,7 +32,7 @@ public class IntentUtils {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
 				Intent goToMarket = null;
-				goToMarket = new Intent(Intent.ACTION_VIEW, Uri.parse("http://market.android.com/search?q=\"adobe reader\""));
+				goToMarket = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.adobe.reader"));
 				context.startActivity(goToMarket);
 				dialog.dismiss();
 			}

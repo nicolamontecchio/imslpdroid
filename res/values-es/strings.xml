@@ -10,7 +10,7 @@
 	</string>
 	<string name="list_of_composers_download_error">Ha ocurrido un error en la descarga de la lista de compositores; compruebe su conexión a internet y vuelva a intenarlo.
 	</string>
-	<string name="list_of_instrumentations_download_error">Ha ocurrido un error en la descarga de la lista de instrumentaciones; compruebre su conexión a internet y vuelva a intentarlo.
+	<string name="list_of_instrumentations_download_error">Ha ocurrido un error en la descarga de la lista de instrumentaciones; compruebe su conexión a internet y vuelva a intentarlo.
 	</string>
 	<string name="list_download_error">Ha ocurrido un error al recuperar la información de IMSLP; compruebe su conexión a internet y vuelva a intentarlo.
 	</string>

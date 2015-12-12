@@ -83,5 +83,5 @@
 	<string name="download_error">download error</string>
 	<string name="opensource">ImslpDroid is now opensource!</string>
 	<string name="opensource2">If you are interested in contributing to the project, please visit: </string>
-	<string name="opensource3">http://imslpdroid.wordpress.com/</string>
+	<string name="opensource3">https://github.com/nicolamontecchio/imslpdroid</string>
 </resources>

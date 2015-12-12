@@ -1,81 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical" android:layout_width="fill_parent"
-	android:layout_height="fill_parent" android:scrollbars="vertical">
-	<ScrollView android:id="@+id/scrollView1"
-		android:layout_width="fill_parent" android:layout_height="fill_parent">
-		<LinearLayout android:id="@+id/linearLayout2"
-			android:layout_width="fill_parent" android:layout_height="fill_parent"
-			android:orientation="vertical">
-			<TextView android:layout_height="wrap_content" android:text="@string/app_name"
-				android:textAppearance="?android:attr/textAppearanceLarge"
-				android:id="@+id/textView1" android:layout_width="wrap_content"></TextView>
-			<TextView android:layout_height="wrap_content" android:text="@string/emptystring"
-				android:id="@+id/textView4" android:layout_width="wrap_content"></TextView>
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
 
-			<!-- opensource notice -->
-			<TextView android:layout_height="wrap_content" android:text="@string/opensource"
-				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:id="@+id/textView20" android:layout_width="wrap_content"></TextView>
-			<TextView android:layout_height="wrap_content" android:text="@string/opensource2"
-				android:textAppearance="?android:attr/textAppearanceSmall"
-				android:autoLink="web" android:id="@+id/textView21"
-				android:layout_width="wrap_content"></TextView>
-			<TextView android:layout_height="wrap_content" android:text="@string/opensource3"
-				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:autoLink="web" android:id="@+id/textView22"
-				android:layout_width="wrap_content" android:gravity="center_horizontal"></TextView>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
 
-			<!-- credits -->
-			<TextView android:layout_height="wrap_content" android:text="@string/credits"
-				android:textAppearance="?android:attr/textAppearanceMedium"
-				android:id="@+id/textView2" android:layout_width="wrap_content"></TextView>
-			<LinearLayout android:layout_height="wrap_content"
-				android:gravity="fill_horizontal|right" android:layout_width="fill_parent"
-				android:id="@+id/linearLayout1">
-				<TextView android:layout_height="wrap_content"
-					android:text="Riccardo Levorato" android:textAppearance="?android:attr/textAppearanceSmall"
-					android:id="@+id/textView3" android:layout_width="wrap_content"></TextView>
-				<TextView android:layout_height="fill_parent" android:text="programming"
-					android:textAppearance="?android:attr/textAppearanceSmall"
-					android:id="@+id/textView3" android:layout_width="fill_parent"
-					android:gravity="right"></TextView>
-			</LinearLayout>
-			<LinearLayout android:layout_height="wrap_content"
-				android:gravity="fill_horizontal|right" android:layout_width="fill_parent"
-				android:id="@+id/linearLayout1">
-				<TextView android:layout_height="wrap_content"
-					android:text="Nicola Montecchio" android:textAppearance="?android:attr/textAppearanceSmall"
-					android:id="@+id/textView3" android:layout_width="wrap_content"></TextView>
-				<TextView android:layout_height="fill_parent" android:text="programming"
-					android:textAppearance="?android:attr/textAppearanceSmall"
-					android:id="@+id/textView3" android:layout_width="fill_parent"
-					android:gravity="right"></TextView>
-			</LinearLayout>
-			<LinearLayout android:layout_height="wrap_content"
-				android:gravity="fill_horizontal|right" android:layout_width="fill_parent"
-				android:id="@+id/linearLayout1">
-				<TextView android:layout_height="wrap_content"
-					android:text="Stefano Padoan" android:textAppearance="?android:attr/textAppearanceSmall"
-					android:id="@+id/textView3" android:layout_width="wrap_content"></TextView>
-				<TextView android:layout_height="fill_parent" android:text="graphics"
-					android:textAppearance="?android:attr/textAppearanceSmall"
-					android:id="@+id/textView3" android:layout_width="fill_parent"
-					android:gravity="right"></TextView>
-			</LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emptystring"></TextView>
+
+            <!-- support imslp stuff -->
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emptystring"></TextView>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/thisisjustaninterface"></TextView>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:gravity="center_horizontal"
+                android:text="@string/imslpurl"
+                android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+
+            <!-- credits -->
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/credits"
+                android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal|right">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Riccardo Levorato"
+                    android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right"
+                    android:text="programming"
+                    android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal|right">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nicola Montecchio"
+                    android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right"
+                    android:text="programming"
+                    android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="fill_horizontal|right">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Stefano Padoan"
+                    android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right"
+                    android:text="graphics"
+                    android:textAppearance="?android:attr/textAppearanceSmall"></TextView>
+            </LinearLayout>
 
 
-
-			<!-- support imslp stuff -->
-			<TextView android:layout_height="wrap_content" android:text="@string/emptystring"
-				android:id="@+id/TextView01" android:layout_width="wrap_content"></TextView>
-			<TextView android:layout_height="wrap_content"
-				android:text="@string/thisisjustaninterface" android:id="@+id/textView7"
-				android:layout_width="wrap_content"></TextView>
-			<TextView android:layout_height="wrap_content" android:text="@string/imslpurl"
-				android:textAppearance="?android:attr/textAppearanceLarge"
-				android:id="@+id/textView8" android:autoLink="web"
-				android:layout_width="fill_parent" android:gravity="center_horizontal"></TextView>
-		</LinearLayout>
-	</ScrollView>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

@@ -33,29 +33,11 @@ public class ImslpdroidActivity extends TabActivity {
 		spec = tabHost.newTabSpec("composers").setIndicator(getString(R.string.composers), res.getDrawable(R.drawable.ic_tabs_composers)).setContent(intent);
 		tabHost.addTab(spec);
 
-		intent = new Intent().setClass(this, TimePeriodActivity.class);
-		spec = tabHost.newTabSpec("timePeriod").setIndicator(getString(R.string.period), res.getDrawable(R.drawable.ic_tabs_timeperiod)).setContent(intent);
-		tabHost.addTab(spec);
-
-		intent = new Intent().setClass(this, NationalityActivity.class);
-		spec = tabHost.newTabSpec("nationality").setIndicator(getString(R.string.nationality), res.getDrawable(R.drawable.ic_tabs_nationality))
-				.setContent(intent);
-		tabHost.addTab(spec);
-
-		intent = new Intent().setClass(this, WorkTypesActivity.class);
-		spec = tabHost.newTabSpec("worktypes").setIndicator(getString(R.string.worktype), res.getDrawable(R.drawable.ic_tabs_worktype)).setContent(intent);
-		tabHost.addTab(spec);
-
-		intent = new Intent().setClass(this, InstrumentationActivity.class);
-		spec = tabHost.newTabSpec("instrumentations").setIndicator(getString(R.string.instrumentation), res.getDrawable(R.drawable.ic_tabs_instrumentation))
-				.setContent(intent);
-		tabHost.addTab(spec);
-
 		intent = new Intent().setClass(this, AboutAppActivity.class);
 		spec = tabHost.newTabSpec("help").setIndicator(getString(R.string.aboutapp), res.getDrawable(R.drawable.ic_tabs_aboutapp)).setContent(intent);
 		tabHost.addTab(spec);
 
-		tabHost.setCurrentTab(6); // show "about" tab on opening
+		tabHost.setCurrentTab(0);
 
 		if (!IntentUtils.isPdfReaderAvailable(getApplicationContext()))
 			IntentUtils.noPdfReaderDialog(this);

@@ -121,7 +121,7 @@ public class ScoresActivity extends ListActivity {
 							hasScore = true;
 						}	
 					} catch(IndexOutOfBoundsException e) {
-						Log.d("exception in adding scores", weFile.toString());
+						Log.d("exception adding scores", weFile.toString());
 					}
 					
 					

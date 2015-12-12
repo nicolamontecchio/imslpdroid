@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, ImslpdroidActivity!</string>
+	<string name="app_name">ImslpDroid</string>
+	<string name="refresh_button">refresh</string>
+	<string name="downloading_list_of_composers">downloading the complete list of composers ... this
+		might take a while
+	</string>
+	<string name="downloading_list_of_instrumentations">Downloading the complete list of instrumentations
+		... this
+		might take up to a minute.
+	</string>
+	<string name="downloading_list">Retrieving data from IMSLP ...\nthis might take a
+		while
+	</string>
+	<string name="list_of_composers_download_error">An error occurred while downloading the list of
+		composers; check your internet connection and try again.
+	</string>
+	<string name="list_of_instrumentations_download_error">An error occurred while downloading the list of
+		instrumentations; check your internet connection and try again.
+	</string>
+	<string name="list_download_error">An error occurred while retrieving data from IMSLP;
+		check your internet connection and try again.
+	</string>
+	<string name="refresh_list_composers_menu">Refresh list of composers</string>
+	<string name="refresh_list_instrumentations_menu">Refresh list of instrumentantions</string>
+	<string name="refresh_list_menu">Refresh list</string>
+	<string name="pieces">Imslpdroid - Select one Piece</string>
+	<string name="scores">Imslpdroid - Select one Score</string>
+	<string name="preferences_label_savepath">Downloaded file directory:</string>
+	<string name="button_confirm">Confirm</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="pathchoosedialog_availablepathsonsdcard">Available paths on SD card:</string>
+	<string name="browse">Browse</string>
+	<string name="downloadingfromimslp">retrieving data from IMSLP</string>
+	<string name="rlvsearch">Search</string>
+	<string name="scoredlinprogress">Score download in progress ...</string>
+	<string name="errordownloadingpieceslist">Error while downloading list of works; please check
+		your internet connection and try again.
+	</string>
+	<string name="filerequestediscopyright">The file you requested has not been reviewed for
+		copyright, or is currently restricted due to various reasons. The
+		block will be lifted after the file is reviewed for copyright and/or
+		other applicable reasons are resolved.
+	</string>
+	<string name="nopdfapp">No application has been installed yet for viewing
+		pdf files - install Acrobat Reader or similar through Android market
+		and retry.
+	</string>
+	<string name="errordownloadingscorelist">An error occurred while downloading the list of
+		scores; check your internet connection and try again.
+	</string>
+	<string name="credits">Original contributors:</string>
+	<string name="emptystring">
+	</string>
+	<string name="nopdfviewer">No pdf viewer is installed; you will not be able to
+		visualize scores until you install one (such as Adobe Reader, freely
+		available on Android market)
+	</string>
+	<string name="lic_redownload">Re-download score</string>
+	<string name="lic_delete">Remove from storage</string>
+	<string name="lic_info">Additional info</string>
+	<string name="lic_chooseaction">Choose an action</string>
+	<string name="deleteall">Delete all files</string>
+	<string name="thisisjustaninterface">This application is an interface to the IMSLP
+		portal. Please consider donating to IMSLP in order to support the
+		project:
+	</string>
+	<string name="imslpurl">http://www.imslp.org</string>
+	<string name="composers">composers</string>
+	<string name="period">age</string>
+	<string name="nationality">nationality</string>
+	<string name="instrumentation">instrument</string>
+	<string name="downloaded">downloaded</string>
+	<string name="aboutapp">info</string>
+	<string name="download_completed">download completed</string>
+	<string name="worktype">type</string>
+	<string name="loading">loading data</string>
+	<string name="no_file">The list of downloaded scores is empty. Search for new scores in browse tabs.</string>
+	<string name="initializing_data">initializing data</string>
+	<string name="no_info">No additional info available</string>
+	<string name="device_storage_error">device storage error</string>
+	<string name="download_error">download error</string>
+	<string name="opensource">ImslpDroid is now opensource!</string>
+	<string name="opensource2">If you are interested in contributing to the project, please visit: </string>
+	<string name="opensource3">http://imslpdroid.wordpress.com/</string>
+</resources>

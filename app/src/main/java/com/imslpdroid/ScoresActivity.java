@@ -49,19 +49,37 @@ public class ScoresActivity extends ListActivity {
     private static String infodialog_display = null;
     private static Map<String, List<Score>> scoreCache = new HashMap<String, List<Score>>();
 
-    public static List<Score> html2scores(String html) {
+    public static List<Score> html2scores(String html, String author) {
 
         List<Score> scores = new LinkedList<>();
         Document jj = Jsoup.parse(html);
+
         // all divs
         for (Element e : jj.getAllElements()) {
             if (e.tagName().equals("div") &&
                     e.id() != null &&
                     e.id().startsWith("IMSLP")) {
+
+                // score id from div tag
+                String scoreId = e.id().replace("IMSLP", "");
+
+                // title (e.g.: "I. (Allegro)")
+                String title = "(?)";
+                for (Element span : e.getElementsByTag("span")) {
+                    if(span.attr("title") != null &&
+                            span.attr("title").equals("Download this file"))
+                        title = span.text().toString().trim();
+                }
+
+                // parent div contains the score "group" (multiple scores with same info, e.g.
+                // mov 1, mov 2, ...)
+                Element scoreGroupDiv = e.parent();
+
+
                 // TODO bogus info besides id - fix
                 scores.add(
-                        new Score(e.id().replace("IMSLP",""),
-                        "","","","","",false,-1));
+                        new Score(scoreId,
+                                author, "", "", title, "", false, -1));
             }
         }
         return scores;

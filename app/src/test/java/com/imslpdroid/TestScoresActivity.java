@@ -28,7 +28,7 @@ public class TestScoresActivity {
     public void testFlululu() throws IOException {
 
         String html = readAScorePage();
-        List<Score> scores = ScoresActivity.html2scores(html);
+        List<Score> scores = ScoresActivity.html2scores(html, "Bach, Johann Sebastian");
         System.out.println(String.format("found %d scores", scores.size()));
         for(Score s : scores) {
             System.out.println(s);

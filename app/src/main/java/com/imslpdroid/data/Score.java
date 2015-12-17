@@ -98,7 +98,7 @@ public class Score implements Serializable {
             this.publisherInfo = publisherInfo;
             this.title = title;
             this.blocked = blocked;
-            this.pagesAndCo = pagesAndCo.split(" - ")[1].trim();
+//            this.pagesAndCo = pagesAndCo.split(" - ")[1].trim();
             this.separator = false;
             this.separatorLevel = -1;
         }
